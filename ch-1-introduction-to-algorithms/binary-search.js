@@ -28,15 +28,11 @@ function binarySearch(list = [], item) {
 
 const sortedList = [0, 1, 2, 3, 5, 7, 11, 13, 17, 19, 22, 23, 29, 31, 33, 37, 41, 43, 44, 47];
 
-// Testing
 console.log(`Index: `, binarySearch(sortedList, 7));
-// Expected:
 // -> Index: 5
 
 console.log(`Index: `, binarySearch(sortedList, 22));
-// Expected:
 // -> Index: 10
 
 console.log(`Index: `, binarySearch(sortedList, 44));
-// Expected:
 // -> Index: 18
